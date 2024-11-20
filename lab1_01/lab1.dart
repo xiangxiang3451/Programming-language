@@ -55,7 +55,7 @@ Future<void> downloadFile(String url) async {
 void main(List<String> arguments) async {
   // Проверка аргументов командной строки
   if (arguments.isEmpty) {
-    print('Использование: dart wget_minimal.dart <URL>');
+    print('Использование: dart filename.dart <URL>');
     exit(1);
   }
 
